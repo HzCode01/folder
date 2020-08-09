@@ -1,5 +1,5 @@
-function run(){
-	let simbolos = '0123456789abcdef'
+const run = () => {
+	const simbolos = '0123456789abcdef'
 	let color = '#'
 
 	for(let i = 0; i < 6; i++)
@@ -7,8 +7,8 @@ function run(){
 
 	document.body.style.background = color
 
-	let texto = document.getElementById("hex")
-	let btn_element = document.getElementById("btn-color")
+	const texto = document.getElementById("hex")
+	const btn_element = document.getElementById("btn-color")
 
 	texto.innerHTML = color
 	texto.style.color = 'snow'
